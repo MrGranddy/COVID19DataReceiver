@@ -1,7 +1,7 @@
 # COVID19DataReceiver
-A simple framework to get daily spread and mortality data of COVID-19
+A simple scraper to get daily spread and mortality data of COVID-19
 
-Using the framework is simple, first you import your receiver, 
+Using the scraper is simple, first you import your receiver, 
 for now there is only the COVID19 receiver.
 
 Then using the receiver you can do two things:
