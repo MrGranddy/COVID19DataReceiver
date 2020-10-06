@@ -55,7 +55,7 @@ class COVID19_Receiver:
                     m = re.search(r"data: \[([0-9,]*)\]", script).group(1)
                     data.append( [ int(x) for x in m.strip().split(",") ] )
                 except:
-                    pass
+                    data.append( [] )
 
             # We get the time labels from any of the data scripts
             time_labels = re.search(r'xAxis: {(\s)*categories: \[([0-9A-Za-z\s",]*)\]',
